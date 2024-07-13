@@ -1,0 +1,275 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "jdk21": {
+        "pkg-path": "jdk21"
+      },
+      "maven": {
+        "pkg-path": "maven"
+      }
+    },
+    "vars": {},
+    "hook": {},
+    "profile": {
+      "common": "    cd ..\n    mvn clean install\n    mvn clean package\n    exit\n"
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/c3cgvi7p5knjqch4jf67dvhj0rl132iq-zulu-ca-jdk-21.0.2.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "zulu-ca-jdk-21.0.2",
+      "pname": "jdk21",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-21.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hxskzr9a3m0prpy9l41bnw3rmmahvdb6-zulu-ca-jdk-21.0.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/ryr1zh5rm81byri3187z9fdmz7n3z2v1-openjdk-21.0.3+9.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "openjdk-21.0.3+9",
+      "pname": "jdk21",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-21.0.3+9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/5b1lcnifgphdnx33rk6ll65w5d7hwbka-openjdk-21.0.3+9-debug",
+        "out": "/nix/store/vgryxqidd03i51500895kmlanr78j4x6-openjdk-21.0.3+9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/0ar0r96546459yv2vs9mv0nhbyq9brxc-zulu-ca-jdk-21.0.2.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "zulu-ca-jdk-21.0.2",
+      "pname": "jdk21",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-21.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/naj6kwxwi4k20x5ngh6sms6n5a0il1x2-zulu-ca-jdk-21.0.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk21",
+      "broken": false,
+      "derivation": "/nix/store/cxrd0013jas64pbgx4xs8vfndbp5vx5p-openjdk-21.0.3+9.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk21",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "openjdk-21.0.3+9",
+      "pname": "jdk21",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-21.0.3+9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/ys8547v5n6rxhlfjmz73m4ld4wc26ig4-openjdk-21.0.3+9-debug",
+        "out": "/nix/store/k9snfnb9i9yc1ww9r0bb0vah9mgwjw7c-openjdk-21.0.3+9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/qaxp3sj6nbjg3pbcxgl36qz989iwaraw-apache-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "apache-maven-3.9.8",
+      "pname": "maven",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "apache-maven-3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7zjci9ys1k692n063kry05irb5ghxyg2-apache-maven-3.9.8"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/m03f709887xgn3x5qqfiaxs4avsf7jp2-apache-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "apache-maven-3.9.8",
+      "pname": "maven",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "apache-maven-3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/fznqhgx4g4ksk2wvxiwm88znx90j8hx3-apache-maven-3.9.8"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/1pdpcapjs8gqv04mvqdfp2j7z480n6mf-apache-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "apache-maven-3.9.8",
+      "pname": "maven",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "apache-maven-3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kbfb906kf0qq9gccz58ihbim340hd309-apache-maven-3.9.8"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/sjsf2fvg8clxbxgmk9fjy2wvy8jky702-apache-maven-3.9.8.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=feb2849fdeb70028c70d73b848214b00d324a497",
+      "name": "apache-maven-3.9.8",
+      "pname": "maven",
+      "rev": "feb2849fdeb70028c70d73b848214b00d324a497",
+      "rev_count": 651108,
+      "rev_date": "2024-07-09T16:33:20Z",
+      "scrape_date": "2024-07-12T00:17:08Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "apache-maven-3.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hbfppx3y447nh5hpl1kp0g7kx432l02z-apache-maven-3.9.8"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

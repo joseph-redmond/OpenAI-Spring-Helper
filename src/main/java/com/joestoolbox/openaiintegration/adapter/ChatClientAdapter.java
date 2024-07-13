@@ -1,4 +1,4 @@
-package tech.conceptualarts.openaiintegration.adapter;
+package com.joestoolbox.openaiintegration.adapter;
 
 import io.micrometer.common.util.StringUtils;
 import lombok.RequiredArgsConstructor;
@@ -10,7 +10,7 @@ import org.springframework.ai.chat.model.Generation;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.stereotype.Component;
 import tech.conceptualarts.logginghelper.adapter.LogAdapter;
-import tech.conceptualarts.openaiintegration.service.ChatClientService;
+import com.joestoolbox.openaiintegration.service.ChatClientService;
 
 import java.util.Map;
 import java.util.Optional;

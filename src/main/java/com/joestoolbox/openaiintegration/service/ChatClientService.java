@@ -1,4 +1,4 @@
-package tech.conceptualarts.openaiintegration.service;
+package com.joestoolbox.openaiintegration.service;
 
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
